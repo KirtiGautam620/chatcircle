@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page - CHATCIRCLE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <header>
+                    <h1 class="logo" >Chat<span>Circle</span></h1>
+                </header>
+            </a>
+            <ul>
+                <li><i class="ri-notification-2-fill"></i></li>
+                <li><i class="ri-mail-ai-fill"></i></li>
+                <li><i class="ri-live-fill"></i></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <i class="ri-search-2-fill"></i>
+                <input type="text" placeholder="Search">
+            </div> 
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/image.png">
+            </div>
+        </div>
+<!-- setting menu -->
+        <div class="settings-menu">
+
+            <div id="dark-btn" >
+                <span> </span>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/image.png">
+                    <div>
+                        <p>Kirti Gautam</p>
+                        <a href="profile.html ">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links"> 
+                    <img src="images/information.png"  class="setting-icons">
+                    <a href="#">Help & Support<i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="setting-links"> 
+                    <img src="images/setting.png" class="setting-icons">
+                    <a href="#">Setting & Privacy <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="setting-links"> 
+                    <img src="images/contrast.png"  class="setting-icons">
+                    <a href="#">Display & Accessibility <i class="ri-arrow-right-s-line"></i></a>
+                </div> 
+                <div class="setting-links"> 
+                    <img src="images/logout.png"  class="setting-icons">
+                    <a href="#">Logout <i class="ri-arrow-right-s-line"></i></a>
+                </div> 
+            </div>   
+        </div> 
+    </nav>
+
+<!-- profile page -->
+
+<div class="profile-cotainer">
+    <img src="profileimages/cover.jpg" class="cover-img">
+    <div class="profile-details">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="images/pexels-iriser-1800456.jpg" class="pd-image">
+                <div>
+                    <h3>Iriser</h3>
+                    <p>120 Friends - 20 mutual</p>
+                    <img src="images/michael-dam-mEZ3PoFGs_k-unsplash.jpg">
+                    <img src="images/pexels-athena-2043590.jpg">
+                    <img src="images/pexels-jeffrey-czum-254391-2253415.jpg">
+                    <img src="images/pexels-yuliya-kosolapova-1535772-3270230.jpg">
+                    <img src="images/pexels-iriser-1800456.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="pd-right">
+
+
+            <button type="button"> <img src="profileimages/add-user.png"> Friends</button>
+            <button type="button"> <img src="profileimages/messenger.png"> Message</button>
+            <br>
+            <a href=""><img src="profileimages/more (1).png"></a>
+
+        </div>
+    </div>
+
+    <div class="profile-info">
+        <div class="info-col">
+
+
+             <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">Beleive in yourself and you can do unbelievable things.<img src="profileimages/smile.png"></p>
+                <hr>
+                <ul>
+                    <li><img src="profileimages/briefcase.png">Director at 99media Ltd</li>
+                    <li><img src="profileimages/graduation-hat.png">Studied at IIT</li>
+                    <li><img src="profileimages/home.png">Live in Bangalore, India</li>
+                    <li><img src="profileimages/placeholder.png">From Kathmandu, Nepal</li>
+                </ul>
+             </div>
+
+              
+             <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="">All Photos</a>  
+                </div>
+                
+                <div class="photo-box">
+                    <div><img src="profileimages/p1.jpg"></div>
+                    <div><img src="profileimages/p2.jpg"></div>
+                    <div><img src="profileimages/p3.jpg"></div>
+                    <div><img src="profileimages/p4.jpg"></div>
+                    <div><img src="profileimages/p5.jpg"></div>
+                    <div><img src="profileimages/p6.jpg"></div> 
+                </div>
+             </div>
+
+
+             <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                    <a href="">All Friends</a>  
+                </div>
+                <p>120 (10 mutual)</p>
+                <div class="friends-box">
+                    <div><img src="images/p1.jpg"><p>Aliza</p></div>
+                    <div><img src="images/p2.jpg"><p>Rosey</p></div>
+                    <div><img src="images/p3.jpg"><p>Jimmy</p></div>
+                    <div><img src="images/p4.jpg"><p>Sia</p></div>
+                    <div><img src="images/p5.jpg"><p>Warm</p></div>
+                    <div><img src="images/p6.jpg"><p>Roosevolt</p></div> 
+                    <div><img src="images/p7.jpg"><p>Maggie</p></div> 
+                    <div><img src="images/p8.jpg"><p>Julliya</p></div> 
+                    <div><img src="images/p9.jpg"><p>Shi-chia</p></div> 
+                </div>
+             </div>
+
+
+
+
+
+        </div> 
+        <div class="post-col">  
+            <div class="write-post-container"> 
+
+                <div class="user-profile">
+                    <img src="images/image.png">
+                    <div>
+                        <p>Kirti Gautam</p>
+                        <small>Public <i class="ri-arrow-down-s-fill"></i> </small>
+                    </div>
+                </div>
+
+
+                 <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Kirti?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><i class="ri-image-fill"></i> Photo</a>
+                        <a href="#"><i class="ri-video-line"></i> Live Video</a>
+                        <a href="#"><i class="ri-bookmark-line"></i> Activity</a>
+                    </div>  
+
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/image.png">
+                        <div>
+                            <p>Kirti Gautam</p>
+                            <span>March 24 2025, 13:40 pm</span> 
+                        </div>
+                    </div>
+                    <a href="#"><i class="ri-more-2-fill"></i></a>
+                </div>
+
+                
+                <p class="post-text">Follow Me on <span>Codeforces & Codechef<b> (Ignitia620)</b></span> for exciting competitive programming challenges. Let's grow together as Programmers. <a href="#">#CompetitiveProgramming</a> <a href="#">#Codeforces</a> <a href="#">#CodeChef</a> <a href="#">#ProblemSolving</a></p>
+
+                <img src="images/meeting-evening.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/speech-bubble.png">45 </div>
+                        <div><img src="images/next.png">20</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/image.png"> <i class="ri-arrow-down-s-fill"></i>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/૮ ˶ᵔ ᵕ ᵔ˶ ა Follow me! 1.png">
+                        <div>
+                            <p>Ameworld</p>
+                            <span>December 24 2024, 15:50 pm</span> 
+                        </div>
+                    </div>
+                    <a href="#"><i class="ri-more-2-fill"></i></a>
+                </div>
+
+                
+                <p class="post-text">Like and Share with your Friends <span>for more videos</span> on<b>  CHATCIRCLE</b> page on your post.Ask your doubts in the comments <a href="#">#Amiworld</a> <a href="#">#YouTube Channel</a> 
+
+                <img src="images/download 1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/speech-bubble.png">45 </div>
+                        <div><img src="images/next.png">20</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/download (3).png"> <i class="ri-arrow-down-s-fill"></i>
+                    </div>
+
+                </div>
+            </div>  
+        </div>
+    </div>
+
+</div> 
+
+
+
+ <div class="footer">
+    <p>Copyright 2024 - ChatCircle   </p>
+ </div>
+    
+<script src="script.js"></script>
+</body>
+</html>  
